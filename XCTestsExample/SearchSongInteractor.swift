@@ -23,11 +23,9 @@ protocol SearchSongInteractorOutput {
 
 class SearchSongInteractor: SearchSongInteractorInput {
     var output: SearchSongInteractorOutput!
-    var worker: SearchSongWorker!
- 
+    var worker: SearchSongWorker! = SearchSongWorker()
     
     func searchSong(request: SearchSong.Request) {
-        worker = SearchSongWorker()
         worker.searchSong(request.search) { (songs) in
             let response = SearchSong.Response(songs: songs)
             self.output.presentSearchedSongs(response)
