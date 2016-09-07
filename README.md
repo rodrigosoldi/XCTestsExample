@@ -33,7 +33,7 @@ handler.
 Do jeito que a classe está escrita, fica difícil testar. O worker está sendo 
 criado dentro da chamada do método. O ideal seria esse worker ser uma property, 
 ou um parâmetro do método 
-[https://medium.com/ios-os-x-development/dependency-injection-in-swift-a959c6eee0ab#.inrfn2eof](Injeção de Dependência).
+[Injeção de Dependência](https://medium.com/ios-os-x-development/dependency-injection-in-swift-a959c6eee0ab#.inrfn2eof).
 Vou usar a primeira opção. O Interactor vai ter uma property do tipo SearchSongWorker.
 Nos testes eu vou criar o meu SearchSongWorker, que vai funcionar como Spy (ou Stub? 
 não lembro agora essa nomenclatura direito, e são quase 2am. Depois você pesquisa! 
