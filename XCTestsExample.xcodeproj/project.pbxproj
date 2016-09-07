@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		A2CC46111D7FCF4800AC12F1 /* SongTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2CC46101D7FCF4800AC12F1 /* SongTests.swift */; };
 		A2CC46131D7FD38600AC12F1 /* SearchSongsInteractorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2CC46121D7FD38600AC12F1 /* SearchSongsInteractorTests.swift */; };
+		A2CC46151D7FDAB700AC12F1 /* SearchSongsPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2CC46141D7FDAB700AC12F1 /* SearchSongsPresenterTests.swift */; };
 		AC0AFAA11D7F244E002D9744 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0AFAA01D7F244E002D9744 /* AppDelegate.swift */; };
 		AC0AFAA31D7F244E002D9744 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0AFAA21D7F244E002D9744 /* ViewController.swift */; };
 		AC0AFAA61D7F244E002D9744 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC0AFAA41D7F244E002D9744 /* Main.storyboard */; };
@@ -46,6 +47,7 @@
 /* Begin PBXFileReference section */
 		A2CC46101D7FCF4800AC12F1 /* SongTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SongTests.swift; sourceTree = "<group>"; };
 		A2CC46121D7FD38600AC12F1 /* SearchSongsInteractorTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchSongsInteractorTests.swift; sourceTree = "<group>"; };
+		A2CC46141D7FDAB700AC12F1 /* SearchSongsPresenterTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchSongsPresenterTests.swift; sourceTree = "<group>"; };
 		AC0AFA9D1D7F244E002D9744 /* XCTestsExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XCTestsExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC0AFAA01D7F244E002D9744 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AC0AFAA21D7F244E002D9744 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -120,6 +122,7 @@
 		AC0AFAB41D7F244F002D9744 /* XCTestsExampleTests */ = {
 			isa = PBXGroup;
 			children = (
+				A2CC46141D7FDAB700AC12F1 /* SearchSongsPresenterTests.swift */,
 				A2CC46121D7FD38600AC12F1 /* SearchSongsInteractorTests.swift */,
 				A2CC46101D7FCF4800AC12F1 /* SongTests.swift */,
 				AC0AFAB51D7F244F002D9744 /* XCTestsExampleTests.swift */,
@@ -285,6 +288,7 @@
 				AC0AFAD01D7F267A002D9744 /* SearchSongPresenter.swift in Sources */,
 				AC0AFACE1D7F267A002D9744 /* SearchSongModels.swift in Sources */,
 				AC0AFAD41D7F267A002D9744 /* SearchSongViewController.swift in Sources */,
+				A2CC46151D7FDAB700AC12F1 /* SearchSongsPresenterTests.swift in Sources */,
 				A2CC46131D7FD38600AC12F1 /* SearchSongsInteractorTests.swift in Sources */,
 				AC0AFACA1D7F267A002D9744 /* SearchSongConfigurator.swift in Sources */,
 			);
