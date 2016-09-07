@@ -14,7 +14,7 @@ Se não sabe, brevemente:
 6. Escreva bons testes, sempre começando com `test...()` e sem parâmetro e sem retorno
 7. Transforme os x's vermelhos em checkmarks verdes! =D
 
-# Testando o model: (commit: "Testing models")
+# Testando o model: ([commit: "Testing models"](https://github.com/rodrigosoldi/XCTestsExample/commit/a6f0db1d9749cbc79092ff41b829d6832ec12f87))
 
 A classe Song é bem simples. Basta testar se o init() tá funcionando direito, 
 ou seja, se quando você passa os parâmetros, eles ficam atribuídos às properties.
@@ -48,14 +48,16 @@ Quando a gente for testar o Interactor, a gente precisa garantir não só que el
 o worker devidamente, mas que também chama o output do jeito certo. Se ele fizer essas
 duas coisas ele terá feito a parte dele _like a boss_.
 
-## O Interactor
+### Interactor -> Worker
 
-Pra testar o interactor, a gente vai criar uma subclasse do worker
+A gente vai criar uma subclasse do worker
 (poderia ser um protocolo esse worker hein! haha) com uma implementação 
 bem particular do método searchSongs(). A 
 subclasse vai ter uma property `searchSongsCalled` do tipo `Bool`, que vai servir
 pra testar a coisa mais básica: se de fato o interactor está chamando esse método.
-(Commit: "Testing interactor part 1")
+([Commit: "Testing interactor part 1"](https://github.com/rodrigosoldi/XCTestsExample/commit/53659e80446bbfe48abd5349e367f88d50bc85d2))
+
+### Interactor -> Output
 
 Isso é legal, mas não é o bastante. A gente precisa garantir que o parâmetro foi 
 passado corretamente e que o output está sendo chamado no completion handler.
