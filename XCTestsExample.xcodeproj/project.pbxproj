@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A2CC46111D7FCF4800AC12F1 /* SongTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2CC46101D7FCF4800AC12F1 /* SongTests.swift */; };
 		AC0AFAA11D7F244E002D9744 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0AFAA01D7F244E002D9744 /* AppDelegate.swift */; };
 		AC0AFAA31D7F244E002D9744 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0AFAA21D7F244E002D9744 /* ViewController.swift */; };
 		AC0AFAA61D7F244E002D9744 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC0AFAA41D7F244E002D9744 /* Main.storyboard */; };
@@ -42,6 +43,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A2CC46101D7FCF4800AC12F1 /* SongTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SongTests.swift; sourceTree = "<group>"; };
 		AC0AFA9D1D7F244E002D9744 /* XCTestsExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XCTestsExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC0AFAA01D7F244E002D9744 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AC0AFAA21D7F244E002D9744 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -116,6 +118,7 @@
 		AC0AFAB41D7F244F002D9744 /* XCTestsExampleTests */ = {
 			isa = PBXGroup;
 			children = (
+				A2CC46101D7FCF4800AC12F1 /* SongTests.swift */,
 				AC0AFAB51D7F244F002D9744 /* XCTestsExampleTests.swift */,
 				AC0AFAB71D7F244F002D9744 /* Info.plist */,
 			);
@@ -274,6 +277,7 @@
 				AC0AFAD61D7F267A002D9744 /* SearchSongWorker.swift in Sources */,
 				AC0AFAB61D7F244F002D9744 /* XCTestsExampleTests.swift in Sources */,
 				AC0AFAD21D7F267A002D9744 /* SearchSongRouter.swift in Sources */,
+				A2CC46111D7FCF4800AC12F1 /* SongTests.swift in Sources */,
 				AC0AFACC1D7F267A002D9744 /* SearchSongInteractor.swift in Sources */,
 				AC0AFAD01D7F267A002D9744 /* SearchSongPresenter.swift in Sources */,
 				AC0AFACE1D7F267A002D9744 /* SearchSongModels.swift in Sources */,
@@ -462,6 +466,7 @@
 				AC0AFABC1D7F244F002D9744 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AC0AFABD1D7F244F002D9744 /* Build configuration list for PBXNativeTarget "XCTestsExampleTests" */ = {
 			isa = XCConfigurationList;
@@ -470,6 +475,7 @@
 				AC0AFABF1D7F244F002D9744 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
