@@ -22,6 +22,7 @@ protocol SearchSongViewControllerOutput {
 }
 
 class SearchSongViewController: UIViewController, SearchSongViewControllerInput, UITableViewDelegate, UITableViewDataSource, UISearchBarDelegate {
+    
     var output: SearchSongViewControllerOutput!
     var router: SearchSongRouter!
     
