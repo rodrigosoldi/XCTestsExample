@@ -14,10 +14,11 @@ Se não sabe, brevemente:
 6. Escreva bons testes, sempre começando com `test...()` e sem parâmetro e sem retorno
 7. Transforme os x's vermelhos em checkmarks verdes! =D
 
-# Testando o model: ([commit: "Testing models"](https://github.com/rodrigosoldi/XCTestsExample/commit/a6f0db1d9749cbc79092ff41b829d6832ec12f87))
+# Testando o model: 
 
 A classe Song é bem simples. Basta testar se o init() tá funcionando direito, 
 ou seja, se quando você passa os parâmetros, eles ficam atribuídos às properties.
+([commit: "Testing models"](https://github.com/rodrigosoldi/XCTestsExample/commit/a6f0db1d9749cbc79092ff41b829d6832ec12f87))
 
 # Testando o Interactor
 
@@ -64,7 +65,7 @@ passado corretamente e que o output está sendo chamado no completion handler.
 Atenção aqui: o fato de que o bloco vai ser chamado é responsabilidade do worker
 e a gente vai testar isso quando a hora chegar. Por enquanto, a nossa subclasse 
 fake tem que garantir isso!
-(Commit: "Testing interactor part 2")
+([Commit: "Testing interactor part 2"](https://github.com/rodrigosoldi/XCTestsExample/commit/a010fc838d501c81482fe52ef613c185bb9fabb0))
 
 ---> Uma nota de desagrado pessoal: por que mesmo o Ray insiste em deixar as coisas
 como Unwrapped Optionals? Por causa disso eu tive que adicionar o output toda vez 
@@ -80,7 +81,7 @@ array vazio.
 
 Na nossa classe de teste a gente chama esse método com a response vazia e com as músicas,
 cria uma implementação do SearchSongsPresenterOutput e "espia" se está tudo correndo bem.
-(Commit: "Testing presenter")
+([Commit: "Testing presenter"](https://github.com/rodrigosoldi/XCTestsExample/commit/322bbb01ce417645dd1902392a0dc42b90d97de9))
 
 ## O Worker
 
@@ -94,7 +95,7 @@ No fim do teste, você declara quanto tempo deve ser esperado até que a expecta
 considerada "não cumprida".
 
 O código é bem auto explicativo. Dá uma olhada.
-(Commit: "Testing worker")
+([Commit: "Testing worker"](https://github.com/rodrigosoldi/XCTestsExample/commit/5040e25ef578e027ca81685b25bb1029522ef5a4))
 
 ## O ViewController
 
@@ -110,7 +111,7 @@ Daí basta testar tudo. =D
 Eu também defini um método `fail()` pra sempre que não der pra pegar o viewController
 eu não usar simplesmente `guard let vc = getVC() else { return }`. Na verdade se não 
 conseguir pegar o VC tem que falhar o teste, certo?
-(Commit: "Testing viewController")
+([Commit: "Testing viewController"](https://github.com/rodrigosoldi/XCTestsExample/commit/905eec6358ff6e649beb3bb01512385dcb0f1143))
 
 
 
